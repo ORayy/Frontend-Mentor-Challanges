@@ -1,5 +1,10 @@
 # Front-end Style Guide
 
+## Centering Elements
+display: flex;
+justify-content: center;
+align-items: center
+
 ## Layout
 
 The designs were created to the following widths:
