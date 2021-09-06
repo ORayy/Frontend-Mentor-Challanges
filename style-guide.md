@@ -16,8 +16,8 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Soft red: hsl(7, 99%, 70%)
-- Yellow: hsl(51, 100%, 49%)
+- Soft red: hsl(7, 99%, 70%)    -->Background color cup image
+- Yellow: hsl(51, 100%, 49%)    -->Background color egg image
 - Dark desaturated cyan (graphic design text): hsl(167, 40%, 24%)
 - Dark blue (photography text): hsl(198, 62%, 26%)
 - Dark moderate cyan (footer): hsl(168, 34%, 41%)
@@ -28,7 +28,7 @@ The designs were created to the following widths:
 - Very dark grayish blue: hsl(213, 9%, 39%)
 - Dark grayish blue: hsl(232, 10%, 55%)
 - Grayish blue: hsl(210, 4%, 67%)
-- White: hsl(0, 0%, 100%)
+- White: hsl(0, 0%, 100%) --> Nav and 'we are creatives section' text
 
 ## Typography
 
