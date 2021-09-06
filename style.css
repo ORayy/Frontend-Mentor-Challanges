@@ -1,0 +1,157 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+/* variables */ 
+/* :root {
+    --primary: ;
+    --secondary: ;
+}  */
+
+/* reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body, p, a, ul, li {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* basestyles - (buttons, input fields) */
+body {
+    background-color: hsl(212, 7%, 36%);
+    font-family: 'Barlow';
+    color: hsl(0, 0%, 100%);
+    font-weight: 700, 900;
+}
+
+/* .button {
+    background: none;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    padding: 6px 12px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.8);
+}
+
+.button:hover {
+    color: #222;
+    background: var(--primary);
+} 
+
+input, textarea {
+    background: rgba(255,255,255,0.5);
+    padding; 10px 16px;
+    border-radius: 20px;
+    border: 2px solid grey;
+    color: #f2f2f2;
+}
+
+*/
+
+/* fonts */
+/* using custom fonts - registering fonts */
+@font-face {
+    font-family: 'Barlow';
+    src: url(assets/fonts/Barlow-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Fraunces';
+    src: url(assets/fonts/Fraunces-Black.ttf),
+    url(assets/fonts/Fraunces-Bold.ttf);
+    font-weight: 700, 900;
+}
+h1, h2, h3, h4 {
+    display: inline-block;
+    font-family: 'Fraunces';
+}
+
+h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.6875;
+    width: 9em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+
+h4 a {
+    color: black;
+}
+
+p {
+    font-size: 1em;
+}
+
+/* mobile styles */
+
+/* small tablets styles */
+@media screen and (min-width: 620px) {
+    
+}
+
+/* large tablets & laptop */
+@media screen and (min-width: 960px) {
+
+    body {
+        font-size: 1.5em;
+    }
+    
+}
+
+/* desktop styl\\\\\\es */
+@media screen and (min-width: 1200px) {
+
+    body {
+        font-size: 2em;
+    }
+    
+}
+
+
+.site-header {
+    background-color: hsl(204, 94%, 66%);
+}
+
+.menu-items {
+    display: none;
+}
+
+.site-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 2rem 1.5rem;
+    border: none;
+}
+
+.hero {
+    background-color: hsl(204, 94%, 66%);
+    height: 25em;
+}
+
+/* .hamburger-menu {
+    display: none;
+} */
