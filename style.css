@@ -120,7 +120,7 @@ p {
     
 }
 
-/* desktop styl\\\\\\es */
+/* desktop styles */
 @media screen and (min-width: 1200px) {
 
     body {
@@ -134,9 +134,46 @@ p {
     background-color: hsl(204, 94%, 66%);
 }
 
-.menu-items {
+.dropdown-menu {
+
+    background-color: white;
+    color: black;
+    width: 85%;
+    height: 14em;
+    position: absolute;
+    top: 6em;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    line-height: 2.5em;
+    letter-spacing: .020em;
+
     display: none;
+
 }
+
+.dropdown-menu.active {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.four {
+    background-color: hsl(51, 100%, 49%);
+    /* width: 7.5em; */
+    padding: 1em;
+    border-radius: 20%;
+    text-transform: uppercase;
+}
+
 
 .site-nav {
     display: flex;
@@ -145,13 +182,15 @@ p {
     overflow: hidden;
     padding: 2rem 1.5rem;
     border: none;
+    position: relative;
 }
 
 .hero {
     background-color: hsl(204, 94%, 66%);
     height: 25em;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* .hamburger-menu {
-    display: none;
-} */

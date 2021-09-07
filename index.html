@@ -15,17 +15,12 @@
   <header class="site-header">
     <nav class="site-nav">
       <div class="logo-img">
-        sunnyside
+        <a href="#">
+          <img src="images/logo.svg" alt="">
+        </a>
       </div>
-      <div class="menu-items">
-        <ul class="list-items">
-          <li>About</li> 
-          <li>Services</li>
-          <li>Projects</li>
-          <li>Contact</li>
-      </ul> 
-      </div>
-      <div class="hamburger-menu"><img src="images/icon-hamburger.svg" alt="menu"></div>
+      
+      <a href="#" id="toggle-hamburger"><img src="images/icon-hamburger.svg" alt="menu"></a>
       <!-- <div class="hamburger-menu"><embed src="images/icon-hamburger.svg" type=""></div> 
       </div> -->
     </nav>
@@ -33,6 +28,14 @@
 
   <main>
     <section class="hero">
+      <div class="dropdown-menu">
+        <ul class="menu">
+          <li class="list-item one">About</li> 
+          <li class="list-item two">Services</li>
+          <li class="list-item three">Projects</li>
+          <li class="list-item four">Contact</li>
+      </ul> 
+      </div>
       <h1>
         We are creatives
       </h1>
@@ -153,9 +156,13 @@
     </div>
   </footer>
 
+  
+
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Owuraku Asare-Anane</a>.
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
