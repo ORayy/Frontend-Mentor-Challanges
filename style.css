@@ -83,7 +83,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.6875;
+    font-size: 1.4;
     width: 9em;
 }
 
@@ -135,10 +135,8 @@ p {
 }
 
 .dropdown-menu {
-
     background-color: white;
-    color: black;
-    width: 85%;
+    width: 87.8%;
     height: 14em;
     position: absolute;
     top: 6em;
@@ -150,9 +148,19 @@ p {
 
     line-height: 2.5em;
     letter-spacing: .020em;
+    
 
     display: none;
 
+}
+
+.dropdown-menu .one, .two, .three {
+    color: hsl(213, 10%, 55%);
+}
+
+.dropdown-menu .four {
+    font-family: 'Fraunces';
+    color: black;
 }
 
 .dropdown-menu.active {
@@ -182,15 +190,27 @@ p {
     overflow: hidden;
     padding: 2rem 1.5rem;
     border: none;
-    position: relative;
 }
 
 .hero {
     background-color: hsl(204, 94%, 66%);
-    height: 25em;
+    height: 100vh;
     /* position: relative; */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+
+    padding-top: 1em;
+    
+    
+    text-align: center;
+    letter-spacing: .2em;
 }
 
+.hero h1 {
+    padding-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+.hero .arrow {
+    justify-content: center;
+}
