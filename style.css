@@ -174,12 +174,16 @@ p {
     align-items: center;
 }
 
-.four {
+.four button {
+    font-family: 'Fraunces';
     background-color: hsl(51, 100%, 49%);
     /* width: 7.5em; */
-    padding: 1em;
+    padding: 1.5em 2em;
     border-radius: 20%;
     text-transform: uppercase;
+
+    border: none;
+    border-radius: 50px;
 }
 
 
