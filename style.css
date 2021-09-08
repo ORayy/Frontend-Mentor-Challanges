@@ -137,7 +137,7 @@ p {
 .dropdown-menu {
     background-color: white;
     width: 87.8%;
-    height: 14em;
+    height: 20em;
     position: absolute;
     top: 6em;
     
@@ -146,7 +146,7 @@ p {
     justify-content: center;
     align-items: center;
 
-    line-height: 2.5em;
+    line-height: 4em;
     letter-spacing: .020em;
     
 
@@ -186,6 +186,10 @@ p {
     border-radius: 50px;
 }
 
+.list-itrem {
+    padding-top: 1.5em;
+}
+
 
 .site-nav {
     display: flex;
@@ -211,7 +215,6 @@ p {
 }
 
 .hero h1 {
-    padding-top: 1em;
     margin-bottom: 1.5em;
 }
 
